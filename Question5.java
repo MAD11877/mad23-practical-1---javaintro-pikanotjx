@@ -37,8 +37,19 @@ public class Question5
       array[i] = in.nextInt();
     }
 
+    int maxCount = 0
+    int maxInteger = null;
     for (int i : array) {
-
+    int indivCount = -1;
+      for (int x : array) {
+        if (i == x) {
+          indivCount++;
+        }
+      }
+      if (indivCount > maxCount) {
+        maxCount = indivCount;
+        maxInteger = i;
+      }
     }
   }
 }
