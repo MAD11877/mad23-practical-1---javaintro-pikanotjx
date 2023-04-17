@@ -22,6 +22,8 @@ public class Question4
     
     for (int i = integer; i > 0; i--;) {
       System.out.println();
+      for (int x = i; x > 0; x--;) {
+        }
     }
   }
 }
