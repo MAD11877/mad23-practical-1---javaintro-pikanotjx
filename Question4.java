@@ -18,6 +18,6 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int integer = in.nextInt();
   }
 }
