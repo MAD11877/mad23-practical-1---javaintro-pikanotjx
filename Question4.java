@@ -21,7 +21,7 @@ public class Question4
     int integer = in.nextInt();
     
     for (int i = integer; i > 0; i--;) {
-      
+      System.out.println();
     }
   }
 }
