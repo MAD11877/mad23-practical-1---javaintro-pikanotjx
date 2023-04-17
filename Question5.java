@@ -37,7 +37,7 @@ public class Question5
       array[i] = in.nextInt();
     }
 
-    int maxCount = 0
+    int maxCount = 0;
     int maxInteger = null;
     for (int i : array) {
     int indivCount = -1;
