@@ -51,5 +51,7 @@ public class Question5
         maxInteger = i;
       }
     }
+
+    System.out.println(maxInteger);
   }
 }
