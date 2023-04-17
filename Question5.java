@@ -26,7 +26,7 @@ public class Question5
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
     
-    System.out.print("Enter the number of integers: ");
+    /* System.out.print("Enter the number of integers: "); */
     Scanner in = new Scanner(System.in);
 
     int integer = in.nextInt();
