@@ -38,7 +38,7 @@ public class Question5
     }
 
     int maxCount = 0;
-    int maxInteger = null;
+    Integer maxInteger = null;
     for (int i : array) {
     int indivCount = -1;
       for (int x : array) {
