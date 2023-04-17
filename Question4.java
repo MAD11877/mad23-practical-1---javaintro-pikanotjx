@@ -20,9 +20,9 @@ public class Question4
     Scanner in = new Scanner(System.in);
     int integer = in.nextInt();
     
-    for (int i = integer; i > 0; i--;) {
+    for (int i = integer; i > 0; i--) {
       System.out.println();
-      for (int x = i; x > 0; x--;) {
+      for (int x = i; x > 0; x--) {
         System.out.print("*");
       }
     }
