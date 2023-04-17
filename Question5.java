@@ -28,6 +28,7 @@ public class Question5
     
     System.out.print("Enter the number of integers: ")
     Scanner in = new Scanner(System.in);
-    
+
+    int integer = in.nextInt();
   }
 }
