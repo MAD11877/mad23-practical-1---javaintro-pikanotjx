@@ -32,5 +32,9 @@ public class Question5
     int integer = in.nextInt();
 
     int[] array = new int[integer];
+
+    for (int i = 0; i < integer; i++) {
+      array[i] = in.nextInt();
+    }
   }
 }
